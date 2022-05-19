@@ -1,0 +1,68 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+}
+  
+.groupIconSocial {
+    display: flex;
+}
+  
+.container {
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0;
+}
+  
+.row {
+    width: 100%;
+}
+
+.rowIcon {
+    text-align: end;
+}
+  
+.col {
+    display: inline-block;
+    width: 33.33%;
+    padding: 0rem;
+}
+  
+.colIcon {
+    display: inline-block;
+    text-align: end;
+    padding-left: 0.5rem;
+}
+
+.iconSocial {
+    width: 3vw;
+}
+
+.alignTextCopyright {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.textCopyright {
+    font-size: 1.5vw;
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.alignLogo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+
+}

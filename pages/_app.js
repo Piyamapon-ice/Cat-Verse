@@ -6,9 +6,8 @@ import FootBar from '../components/FootBar'
 function MyApp({ Component, pageProps }) {
   return(
     <>
-    <NavBar />
-    <Component {...pageProps} />
-    <FootBar />
+      <Component {...pageProps} />
+      <FootBar />
     </>
   ) 
 }
