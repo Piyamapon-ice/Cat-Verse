@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { MdPlayCircleFilled } from "react-icons/md";
+import { FaAngleDoubleRight , FaAngleDoubleLeft } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -78,63 +79,25 @@ export default function Home() {
             </div>
           </div>
 
-          </div>
-        </div>
-
-        {/* <div className={styles.section}>
-          <div className={styles.textover}>
-            <img src='images/MaskGroup.png' className={styles.banner} />
-            <p className={styles.headingInteract}>Ways to interact</p>
-
-            <div className={styles.boxIcon}>
-              <div className={styles.container}>
-                <div className={styles.row}>
-
-                  <div className={styles.col}>
-                    <div className={styles.colItem}>
-                      <div className={styles.borderBox}>
-                      <div className={styles.box}>
-                        <img src='images/chatIcon.png' className={styles.chatIcon} />
-                      </div>
-                      </div>
-                      <div className={styles.boxSubHeadingInteract}>
-                        <p className={styles.subheadingInteract}>CHAT</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className={styles.col}>
-                  <div className={styles.colItem}>
-                    <div className={styles.borderBox}>
-                      <div className={styles.box}>
-                        <img src='images/emojiIcon.png' className={styles.emojiIcon} />
-                      </div>
-                    </div>
-                      <div className={styles.boxSubHeadingInteract}>
-                      <p className={styles.subheadingInteract}>VIRTUAL EXPRESSIONS</p>
-                      </div> 
-                    </div>
-                  </div>
-
-                  <div className={styles.col}>
-                    <div className={styles.colItem}>
-                    <div className={styles.borderBox}>
-                      <div className={styles.box}>
-                        <img src='images/eyeIcon.png' className={styles.eyeIcon} />
-                      </div>
-                    </div>
-                      <div className={styles.boxSubHeadingInteract}> 
-                      <p className={styles.subheadingInteract}>SURVEY</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div className={styles.divInteractText}>
+            <div className={styles.flexboxInteractText}>
+              <div className={styles.itemInteractText}>
+                  <p className={styles.textIcon}>CHAT</p>
+              </div>
+              <div className={styles.itemInteractText}>
+                  <p className={styles.textIcon}>VIRTUAL EXPRESSIONS</p>
+              </div>
+              <div className={styles.itemInteractText}>
+                  <p className={styles.textIcon}>SURVEY</p>
               </div>
             </div>
-                <p className={styles.titileInteract}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, adipisci? Exercitationem eius voluptatum assumenda velit voluptate sapiente nam quaerat sit architecto! Officia excepturi ab accusamus soluta corrupti velit? Labore, odio?</p>
-                
           </div>
-        </div> */}
+
+          <p className={styles.titileInteract}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, adipisci? Exercitationem eius voluptatum assumenda velit voluptate sapiente nam quaerat sit architecto! Officia excepturi ab accusamus soluta corrupti velit? Labore, odio?</p>
+
+
+          </div>
+        </div>
 
         {/* section Join */}
         <div className={styles.section}>
@@ -142,10 +105,37 @@ export default function Home() {
           <img src='images/CtaSignUp.png' className={styles.banner} />
           <p className={styles.headingJoin}>join the interactive experience</p>
           <p className={styles.LogoJoin}> LOGO </p>
-          <div className={styles.DivBtnJoin}>
-            <button className={styles.btnExplore}>
-              <Link href='/signUp' className={styles.TextBtn}>SIGN UP</Link>
-            </button>
+
+            <div className={styles.DivBtnJoin}>
+              <div className={styles.flexboxJoin}>
+                
+                <div className={styles.itemJoin}>
+                  <span className={styles.FaAngleDoubleRight}>
+                    <FaAngleDoubleRight className={styles.FaAngleDoubletIcon} /> 
+                    <FaAngleDoubleRight className={styles.FaAngleDoubletIcon} /> 
+                    <FaAngleDoubleRight className={styles.FaAngleDoubletIcon} /> 
+                    <FaAngleDoubleRight className={styles.FaAngleDoubletIcon} />
+                  </span>
+                </div> 
+
+                <div className={styles.itemJoin}>
+                  <div className={styles.divBtnSignUp}>
+                    <button className={styles.btnExplore}>
+                      <Link href='/signUp' className={styles.TextBtn}>SIGN UP</Link>
+                    </button>
+                  </div>
+                </div>
+                    
+                <div className={styles.itemJoin}>
+                  <span className={styles.FaAngleDoubleLeft}>
+                    <FaAngleDoubleLeft className={styles.FaAngleDoubletIcon} /> 
+                    <FaAngleDoubleLeft className={styles.FaAngleDoubletIcon} /> 
+                    <FaAngleDoubleLeft className={styles.FaAngleDoubletIcon} /> 
+                    <FaAngleDoubleLeft className={styles.FaAngleDoubletIcon} />
+                  </span>
+                </div>
+                 
+            </div>
           </div>
         </div>
         </div>

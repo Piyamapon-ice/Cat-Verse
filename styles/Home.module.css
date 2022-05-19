@@ -1,4 +1,4 @@
-/* Banner */
+/* Main CSS */
 .banner {
   width: 100%;
   background-repeat: no-repeat;
@@ -13,9 +13,10 @@
 
 .textover {
   position: relative;
-  margin-bottom: -7px;
+  margin-bottom: -8px;
 }
 
+/* Banner */
 .DivBtnBanner {
   position: absolute;
   top: 78%;
@@ -94,7 +95,7 @@
 /* video */
 .video {
   width: 100%;
-  padding: 5rem;
+  padding: 4rem;
   text-align: center;
   background-color: #d1d5db;
 }
@@ -129,24 +130,78 @@
 }
 
 .chatIcon {
-  position: absolute;
-  top: 13%;
-  left: 20%;
-  height: 25px;
+  height: 20px;
 }
 
 .emojiIcon {
-  position: absolute;
-  top: 10%;
-  left: 17%;
-  height: 28px;
+  height: 25px;
 }
 
 .eyeIcon {
-  position: absolute;
-  top: 23%;
-  left: 24%;
   height: 20px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px 30px;
+}
+
+.item {
+  box-sizing: border-box;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 0px 15px;
+}
+
+.content {
+  color: #fff;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 30px;
+  border-image: linear-gradient(to right, #FF00F2 -5.35%, #00C6FF 108.54%) 1;
+  background: radial-gradient(50% 50% at 50% 50%, #3e3c96 0%, #1d1c63 100%);
+  font-weight: 600;
+  text-align: center;    
+  box-sizing: border-box;
+  padding: 10px;
+  width: auto;
+  height: 45px;
+  margin-right: 0rem;
+}
+
+.divInteractText {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.flexboxInteractText {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px 30px;
+}
+
+.itemInteractText {
+  box-sizing: border-box;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.textIcon {
+  color: #fff;
+  font-size: 2vw;
+  margin-top: 0.5rem;
 }
 
 .titileInteract {
@@ -214,11 +269,12 @@
   text-align: center;
   color: #000;
   font-size: 3.3vw;
+  font-weight: 400;
 }
 
 .LogoJoin {
   position: absolute;
-  top: 45%;
+  top: 40%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -231,44 +287,64 @@
   text-align: center;
 }
 
-@media screen and (max-width: 375px) {
-  
-}
-
-@media screen and (max-width: 375px) {
-  
-}
-
-.border {
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(to right, #FF00F2 -5.35%, #00C6FF 108.54%)1;
-}
-
-/* test */
-.flexbox {
+.flexboxJoin {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
   box-sizing: border-box;
-  margin: 0px -10px;
+  margin: 0px 30px;
 }
 
-.item {
+.itemJoin {
   box-sizing: border-box;
   width: 50%;
-  margin-bottom: 20px;
-  padding: 0px 10px;
+  padding: 0;
 }
 
-.content {
+.FaAngleDoubletIcon {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.divBtnSignUp {
+  display: flex;
+  justify-content: center;
+}
+
+.FaAngleDoubleRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   color: #fff;
-  background-color: #1bbefe;
-  font-weight: 600;
-  text-align: center;
-  box-sizing: border-box;
-  height: 100%;
-  padding: 10px;
+}
+
+.FaAngleDoubleLeft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+
+}
+@media screen and (max-width: 376px) {
+
+}
+@media screen and (max-width: 425px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 2550px) {
+
 }
