@@ -162,7 +162,6 @@
   color: #fff;
   border-width: 4px;
   border-style: solid;
-  border-radius: 30px;
   border-image: linear-gradient(to right, #FF00F2 -5.35%, #00C6FF 108.54%) 1;
   background: radial-gradient(50% 50% at 50% 50%, #3e3c96 0%, #1d1c63 100%);
   font-weight: 600;
@@ -328,23 +327,199 @@
 }
 
 @media screen and (max-width: 320px) {
-
+/* Banner */
+.DivBtnBanner {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  text-align: center;
 }
+}
+
 @media screen and (max-width: 376px) {
-
+/* Banner */
+.DivBtnBanner {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+  }
 }
+
 @media screen and (max-width: 425px) {
+/* Banner */
+.DivBtnBanner {
+  position: absolute;
+  top: 82%;
+  width: 100%;
+  text-align: center;
+  }
+
+/* Explore */
+.DivBtnExplore {
+  position: absolute;
+  top: 78%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Join */
+.DivBtnJoin {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+}
+
+.flexboxJoin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px 50px !important;
+}
 
 }
+
 @media screen and (max-width: 768px) {
+/* Banner */
+.DivBtnBanner {
+  position: absolute;
+  top: 86%;
+  width: 100%;
+  text-align: center;
+  }
+
+/* Explore */
+.DivBtnExplore {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Join */
+.DivBtnJoin {
+  position: absolute;
+  top: 76%;
+  width: 100%;
+  text-align: center;
+}
+
+.flexboxJoin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px 150px;
+}
 
 }
+
 @media screen and (max-width: 1024px) {
+/* Banner */
+.DivBtnBanner {
+  position: absolute;
+  top: 87%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Explore */
+.DivBtnExplore {
+  position: absolute;
+  top: 82%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Interact */
+.content {
+  color: #fff;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #FF00F2 -5.35%, #00C6FF 108.54%) 1;
+  background: radial-gradient(50% 50% at 50% 50%, #3e3c96 0%, #1d1c63 100%);
+  font-weight: 600;
+  text-align: center;    
+  box-sizing: border-box;
+  padding: 10px;
+  width: auto;
+  height: 80px;
+  margin-right: 0rem;
+}
+
+/* Join */
+.DivBtnJoin {
+  position: absolute;
+  top: 78%;
+  width: 100%;
+  text-align: center;
+}
 
 }
+
 @media screen and (max-width: 1440px) {
-
+/* Banner */
+.DivBtnBanner {
+  position: absolute;
+  top: 88%;
+  width: 100%;
+  text-align: center;
 }
-@media screen and (max-width: 2550px) {
 
+/* Explore */
+.DivBtnExplore {
+  position: absolute;
+  top: 82%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Join */
+.LogoJoin {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 3vw;
+}
+
+.DivBtnJoin {
+  position: absolute;
+  top: 79%;
+  width: 100%;
+  text-align: center;
+}
+
+.flexboxJoin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px 200px;
+}
+
+.FaAngleDoubleRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 3vw;
+}
+
+.FaAngleDoubleLeft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  font-size: 3vw;
+}
 }
